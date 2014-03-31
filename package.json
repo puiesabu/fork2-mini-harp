@@ -1,0 +1,18 @@
+{
+  "name": "mini-harp",
+  "version": "0.0.0",
+  "description": "A web-server that serves static files and preprocesses jade to HTML, less to css, and CoffeeScript to JavaScript, which is inspired by Harp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mini-harp"
+  ],
+  "author": "Kaeli",
+  "license": "MIT",
+  "bin": "bin/mini-harp.js",
+  "dependencies": {
+    "connect": "^3.0.0-rc.1"
+  }
+}
