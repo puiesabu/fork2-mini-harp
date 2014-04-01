@@ -13,9 +13,9 @@ module.exports = function(root) {
       next();
     }
   })
-    .use(serveStatic(root))
     .use(makeJade(root))
-    .use(makeLess(root));
+    .use(makeLess(root))
+    .use(serveStatic(root));
 
   return app;
 }
